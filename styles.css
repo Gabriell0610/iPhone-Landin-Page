@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #e8e6e7
+}
+
+header {
+    padding: 20px 70px;
+    background-color: #1f1e1e;
+}
+
+.img-logo{
+    height: 50px;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.nav-list li {
+    color: #ccc;
+    font-size: 13px;
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+
+.nav-list li:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-list .li-iphone {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/*///////////////////////////////////*/
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+   
+}
+
+
+
+.title-iphone {
+    width: 15rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}
+
+
+.descricao h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.descricao p {
+    margin-bottom: 1.5rem;
+    width: 540px;
+
+}
+
+.descricao h6{
+    font-size: 1rem;
+    color: #979696;
+    margin-bottom: 2rem;
+}
+
+.btn-comprar {
+    background-color: rgba(20, 72, 214, 0.904);
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    opacity: .85;
+}
+
+.descricao h5 {
+    margin-bottom: 1.6rem;
+}
+
+.btns-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btns {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 1px 1px #9e9d9d;
+}
+
+.btns:hover {
+    opacity: .85
+}
+
+#green {
+    background-color: #384937;
+}
+
+#pink {
+    background-color: #f8ddd6;
+    
+}
+
+#blue {
+    background-color: #225f7e;
+}
+
+#black {
+    background-color: #192028;
+}
+
+#white {
+    background-color: #e0dbd7;
+}
+
+#red {
+    background-color: #ae0617;
+}
+
+
+.main-img {
+    transition: all 1s ease;
+    z-index: 100;
+
+}
+
+.main-img img {
+    width: 320px;
+    transform: rotate(-7deg);
+  
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: #384937;
+    clip-path: circle(800px at right 1000px);
+}
+
+
+
+
+
+

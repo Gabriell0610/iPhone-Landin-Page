@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img src="img/logo.png" alt="" class="img-logo">
+            <ul class="nav-list">
+                <li>Mac</li>
+                <li>iPad</li>
+                <li class="li-iphone">iPhone</li>
+                <li>Watch</li>
+                <li>AirPode</li>
+                <li>Só na Apple</li>
+                <li>Suporte</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="circle" id="circle"></div>
+            <div class="descricao">
+                <img src="img/iphone13.png" alt="" class="title-iphone">
+                <h3>Seu novo superpoder.</h3>
+                <p> Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo. 
+                    No iPhone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos.
+                </p>
+                <h6>A partir de R$ 6.599</h6>
+                <button class="btn-comprar">Comprar</button>
+                <h5><strong>Escola sua cor favorita:</strong></h5>    
+                <div id="buttons" class="btns-container">
+                    <button class="btns" id="green"></button>
+                    <button class="btns" id="pink"></button>
+                    <button class="btns" id="blue"></button>
+                    <button class="btns" id="black"></button>
+                    <button class="btns" id="white"></button>
+                    <button class="btns" id="red"></button>
+                </div>
+            </div>
+                <div class="main-img">
+                    <img src="img/green.png" alt="" id="img">
+                </div>
+
+                
+        </section>
+    </main>
+
+    <script type="text/javascript">
+        function changeCircle (color) {
+            const circle = document.getElementById('circle')
+            circle.style.background = color
+        }
+
+    </script>
+
+    <script src="script.js"></script>
+</body> 
+</html>

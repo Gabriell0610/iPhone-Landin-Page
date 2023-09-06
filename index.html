@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/apple-logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img src="img/logo.png" alt="" class="img-logo">
+            <ul class="nav-list">
+                <li>Mac</li>
+                <li>iPad</li>
+                <li class="li-iphone">iPhone</li>
+                <li>Watch</li>
+                <li>AirPode</li>
+                <li>Só na Apple</li>
+                <li>Suporte</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="circle" id="circle"></div>
+            <div class="descricao">
+                <img src="img/iphone13.png" alt="" class="title-iphone">
+                <h3>Seu novo superpoder.</h3>
+                <p> Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo. 
+                    No iPhone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos.
+                </p>
+                <h6>A partir de R$ 6.599</h6>
+                <button class="btn-comprar">Comprar</button>
+                <h5><strong>Escola sua cor favorita:</strong></h5>    
+                <div id="buttons" class="btns-container">
+                    <button class="btns" id="green" onclick="changeCircle('#384937')"></button>
+                    <button class="btns" id="pink"  onclick="changeCircle('#f8ddd6')"></button>
+                    <button class="btns" id="blue"  onclick="changeCircle('#225f7e')"></button>
+                    <button class="btns" id="black" onclick="changeCircle('#192028')"></button>
+                    <button class="btns" id="white" onclick="changeCircle('#e0dbd7')"></button>
+                    <button class="btns" id="red"   onclick="changeCircle('#ae0617')"></button>
+                </div>
+            </div>
+                <div class="main-img">
+                    <img src="img/green.png" alt="" id="img">
+                </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body> 
+</html>
